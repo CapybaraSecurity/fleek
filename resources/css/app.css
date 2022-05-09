@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.theme-startup {
+  --color-primary: 255 115 179;
+  --color-secondary: 111 114 185;
+  /* ... */
+}
+
+.theme-boring {
+  --color-primary: 2 82 204;
+  --color-secondary: 255 196 2;
+  /* ... */
+}
+
+.theme-elegant {
+  --color-primary: 192 178 131;
+  --color-secondary: 220 208 192;
+  /* ... */
+}
