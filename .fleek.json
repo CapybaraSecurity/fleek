@@ -1,18 +1,8 @@
 {
   "build": {
-    "image": "node:alpine",
-    "command": "npm install postcss-loader@^6.0.0 --save-dev && npm install && node ace build --production && cd build && npm ci --production && node ../build/server.js",
-    "publicDir": "build/",
-    "baseDir": "build/",
-    "environment": {
-      "SOME_ENV": "Build finished!",
-      "PORT": "4443",
-      "HOST": "0.0.0.0",
-      "NODE_ENV": "production",
-      "APP_KEY": "u_3r1YAmLsTDIO3ukeWgO_ZQVCqknx08",
-      "DRIVE_DISK": "local",
-      "SESSION_DRIVER": "cookie",
-      "CACHE_VIEWS": "true",
-    }
+    "image": "wordpress:beta-php8.1-fpm-alpine",
+    "command": "",
+    "publicDir": "/var/www/html",
+    "baseDir": "/var/www/html",
   }
 }
