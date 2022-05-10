@@ -1,7 +1,7 @@
 {
   "build": {
     "image": "node:alpine",
-    "command": "npm install && npm run build && node ace build --productions --no-assets && node ace serve",
+    "command": "npm install && node ace build --production && cd build && node server.js",
     "publicDir": "fleek",
     "baseDir": "",
     "environment": {
