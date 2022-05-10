@@ -2,7 +2,7 @@
   "build": {
     "image": "node:alpine",
     "command": "npm install postcss-loader@^6.0.0 --save-dev && npm install && node ace build --production && cd build && node server.js",
-    "publicDir": "fleek",
+    "publicDir": "",
     "baseDir": "",
     "environment": {
       "SOME_ENV": "Build finished!"
