@@ -1,7 +1,7 @@
 {
  "build": {
    "image": "node:alpine",
-   "command": "npm install && npm run build && echo $SOME_ENV && node ace serve --ignore-ts-errors",
+   "command": "npm install && npm run build && node ace build --production && node ace serve --ignore-ts-errors",
    "publicDir": "fleek",
    "baseDir": "",
    "environment": {
