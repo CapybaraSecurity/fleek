@@ -6,7 +6,7 @@
     "baseDir": "build/",
     "environment": {
       "SOME_ENV": "Build finished!",
-      "PORT": "443",
+      "PORT": "4443",
       "HOST": "0.0.0.0",
       "NODE_ENV": "production",
       "APP_KEY": "u_3r1YAmLsTDIO3ukeWgO_ZQVCqknx08",
