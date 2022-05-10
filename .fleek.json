@@ -1,7 +1,7 @@
 {
   "build": {
     "image": "node:alpine",
-    "command": "npm install postcss-loader@^6.0.0 --save-dev && npm install && node ace build --production && cd build && npm ci --production && node server.js",
+    "command": "npm install postcss-loader@^6.0.0 --save-dev && npm install && node ace build --production && cd build && npm ci --production && node ../build/server.js",
     "publicDir": "build/",
     "baseDir": "build/",
     "environment": {
