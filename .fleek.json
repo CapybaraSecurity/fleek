@@ -2,8 +2,8 @@
  "build": {
    "image": "node:alpine",
    "command": "npm install && npm run build && echo $SOME_ENV && node ace serve",
-   "publicDir": "build",
-   "baseDir": "frontend",
+   "publicDir": "fleek",
+   "baseDir": "",
    "environment": {
      "SOME_ENV": "Build finished!"
    }
