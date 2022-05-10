@@ -19,7 +19,6 @@
 */
 
 import Route from '@ioc:Adonis/Core/Route'
-import RolesController from 'App/Controllers/Http/RolesController'
 
 Route.get('/', async ({ view }) => {
   return view.render('welcome')
