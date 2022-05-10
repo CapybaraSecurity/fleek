@@ -5,7 +5,14 @@
     "publicDir": "",
     "baseDir": "",
     "environment": {
-      "SOME_ENV": "Build finished!"
+      "SOME_ENV": "Build finished!",
+      "PORT": "443",
+      "HOST": "0.0.0.0",
+      "NODE_ENV": "production",
+      "APP_KEY": "u_3r1YAmLsTDIO3ukeWgO_ZQVCqknx08",
+      "DRIVE_DISK": "local",
+      "SESSION_DRIVER": "cookie",
+      "CACHE_VIEWS": "true",
     }
   }
 }
